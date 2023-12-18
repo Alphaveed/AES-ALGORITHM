@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+ 
+<html>
+ 
+<head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+      float:left;
+        background: transparent;
+        color: white;
+        width: 99.3%;
+        font-family: 'impact';
+        font-size: 40px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+  }
+  .banner video
+    {
+      position: absolute;
+      right: 0;
+      bottom: 1;
+      z-index: -1;
+  
+    }    
+    @media(min-aspect-ratio:16/9)
+    {
+      .banner video{    
+        width: 100%;
+        height: auto;
+  
+
+      }
+    }
+    .button {
+  border: none;
+  background-color: transparent;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-left: 250px;
+  cursor: pointer;
+}
+.button1 {
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+  a
+  {
+    font-size: 60px;
+    color: white;
+    background: none;
+    font-family:'Impact' ;
+  }
+
+
+</style>
+<body>
+  
+<h1> AES ALGORITHM FOR IMAGE ENCRYPTION AND DECYRPTION </h1>  
+<div class="banner">
+  <video autoplay loop muted plays-inline>
+    <source src="video.mp4" type="video/mp4">
+  </video> 
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<button class="button button1"><a style="text-decoration: none" href="./Encryption.py"  >ENCRYPTION</button>
+<button class="button button2"><a style="text-decoration: none" href="./Decryption.py"  >DECRYPTION</a>
+</a></button>
+</body>
+</head>
+</html>
